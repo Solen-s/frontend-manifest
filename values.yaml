@@ -1,0 +1,11 @@
+replicaCount: 2
+namespace: nextjs
+image:
+  repository: solenn9/nextjs-app
+  tag: "16"
+  containerPort: 3000
+
+service:
+  type: LoadBalancer
+  port: 3000
+  targetPort: 3000
