@@ -2,7 +2,7 @@ replicaCount: 2
 namespace: nextjs
 image:
   repository: solenn9/nextjs-app
-  tag: "20"
+  tag: "21"
   containerPort: 3000
 
 service:
